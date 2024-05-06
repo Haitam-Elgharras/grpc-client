@@ -22,5 +22,6 @@ public class BankGrpcClient1 {
         Bank.ConvertCurrencyResponse currencyResponse = bankServiceBlockingStub.convert(convertCurrencyRequest);
 
         System.out.println("Currency response: \n" + currencyResponse);
+
     }
 }
